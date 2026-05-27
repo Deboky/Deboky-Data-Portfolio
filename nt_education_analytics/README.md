@@ -1,15 +1,19 @@
 # NT Education Attendance Analytics Dashboard
 ### Government & Operational Analytics
 
-This project analyzes school attendance patterns across the Northern Territory using publicly available government data to identify declining trends, regional disparities, and opportunities for earlier intervention. It is designed to reflect the kind of reporting and decision support used in public-sector education environments [web:8][web:12].
+This project analyzes school attendance patterns across the Northern Territory using publicly available government data to identify declining trends, regional disparities, and opportunities for earlier intervention. It is designed to reflect the kind of reporting and decision support used in public-sector education environments 
 
-> **Project focus:** Turning attendance data into actionable insights for school leaders, regional managers, and policy teams responsible for improving student engagement and attendance outcomes [web:8][web:12].
+
+> **Project focus:** Turning attendance data into actionable insights for school leaders, regional managers, and policy teams responsible for improving student engagement and attendance outcomes.
 
 ---
+## Data sources
+
+- Northern Territory Government Open Data Portal. *Dataset - NTG Open Data Portal - Northern Territory Government*. Accessed 27 May 2026..
 
 ## Business problem
 
-School attendance is a major operational and policy issue in the Northern Territory, particularly in remote and regional communities. NT reporting shows attendance data is collected regularly from enrolment and attendance datasets, and recent public reporting indicates attendance remains low enough to require ongoing intervention and monitoring [web:19][web:12].
+School attendance is a major operational and policy issue in the Northern Territory, particularly in remote and regional communities. NT reporting shows attendance data is collected regularly from enrolment and attendance datasets, and recent public reporting indicates attendance remains low enough to require ongoing intervention and monitoring.
 
 This project was built to answer three practical questions:
 
@@ -21,7 +25,7 @@ This project was built to answer three practical questions:
 
 ## What the project does
 
-The dashboard provides a structured view of attendance performance across schools and regions. It is intended to help identify patterns, compare geographies, and present data in a format that supports executive reporting and frontline planning [web:8][web:19].
+The dashboard provides a structured view of attendance performance across schools and regions. It is intended to help identify patterns, compare geographies, and present data in a format that supports executive reporting and frontline planning.
 
 Key outputs include:
 
@@ -36,17 +40,15 @@ Key outputs include:
 
 | Analytical layer | What was done |
 |---|---|
-| Data ingestion & ETL | Cleaned and structured NT government education datasets using Python and pandas [web:8]. |
+| Data ingestion & ETL | Cleaned and structured NT government education datasets using Python and pandas . |
 | Relational modeling | Built an analytical schema in PostgreSQL to support reporting logic and reusable queries. |
 | Dashboarding | Developed Power BI views for operational reporting and KPI monitoring. |
 
-The project uses public NT Government education datasets, including enrolment and attendance reporting, which are published through the NT open data portal [web:8][web:19]. The design reflects the fact that attendance remains a live public-sector issue in the Territory rather than a one-off analysis exercise [web:12][web:21].
 
 ---
 
 ## Key insights
 
-Add your real findings here once finalised. Strong portfolio examples should be specific and quantified.
 
 - Attendance is lowest in remote or high-need regions.
 - A small number of schools account for a disproportionate share of attendance decline.
@@ -54,7 +56,6 @@ Add your real findings here once finalised. Strong portfolio examples should be 
 - Attendance gaps are large enough to justify targeted support rather than generic interventions.
 - Dashboard filtering by region, school, and term helps users move from overview to action.
 
-If possible, replace these with measured findings from your analysis, such as percentage-point gaps, top/bottom-ranked regions, or trend changes over time.
 
 ---
 
@@ -68,7 +69,6 @@ Include screenshots and short explanations for each page of the dashboard.
 4. **Trend view**: Attendance over time by term or semester.
 5. **Intervention view**: Schools or clusters flagged for attention.
 
-This helps a recruiter see that you understand how executives and analysts actually use dashboards in government settings.
 
 ---
 
@@ -80,7 +80,6 @@ This helps a recruiter see that you understand how executives and analysts actua
 - **Power BI** for dashboarding and executive reporting.
 - **SQL** for analysis and data validation.
 
-Keep this section practical and concise. Recruiters care more about how you used the tools than the logos themselves.
 
 ---
 
@@ -91,15 +90,13 @@ Keep this section practical and concise. Recruiters care more about how you used
 - Missing, inconsistent, or delayed records should be documented and handled clearly.
 - The dashboard is a demonstration of analytical reporting and decision support, not an official source of truth without validation.
 
-This section shows professional judgment and public-sector awareness.
 
 ---
 
 ## Why this matters for NT Government
 
-This project is relevant to education, planning, and service delivery roles because it shows the ability to turn public data into useful operational reporting. NT Government datasets already support attendance and enrolment analysis, and attendance remains a live issue in the Territory [web:8][web:12].
+This project is relevant to education, planning, and service delivery roles because it shows the ability to turn public data into useful operational reporting. NT Government datasets already support attendance and enrolment analysis, and attendance remains a live issue in the Territory.
 
-It also demonstrates the difference between making a chart and building a reporting asset that supports decision-making.
 
 ---
 
@@ -115,4 +112,4 @@ It also demonstrates the difference between making a chart and building a report
 
 ## Conclusion
 
-This project demonstrates the ability to transform public-sector education data into clear, actionable reporting for operational and executive stakeholders. It combines data preparation, relational modeling, and dashboard design to support better attendance monitoring and earlier intervention [web:8][web:19].
+This project demonstrates the ability to transform public-sector education data into clear, actionable reporting for operational and executive stakeholders. It combines data preparation, relational modeling, and dashboard design to support better attendance monitoring and earlier intervention.
